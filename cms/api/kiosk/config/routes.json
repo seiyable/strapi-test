@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kiosks",
+      "handler": "Kiosk.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kiosks/count",
+      "handler": "Kiosk.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kiosks/:_id",
+      "handler": "Kiosk.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kiosks",
+      "handler": "Kiosk.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kiosks/:_id",
+      "handler": "Kiosk.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kiosks/:_id",
+      "handler": "Kiosk.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

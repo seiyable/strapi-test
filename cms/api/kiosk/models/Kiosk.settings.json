@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "kiosk",
+    "description": "Kiosk configutation"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "screen_timeout_sec": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}
